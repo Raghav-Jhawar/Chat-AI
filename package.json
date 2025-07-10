@@ -1,0 +1,28 @@
+{
+  "name": "chat-ai-api",
+  "version": "1.0.0",
+  "description": "Backend for an AI Chat Bot",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsc --noEmit && tsx --watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "author": "Raghav Jhawar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "openai": "^5.8.3",
+    "stream-chat": "^9.10.1",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.12",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
