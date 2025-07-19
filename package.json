@@ -11,17 +11,21 @@
   "author": "Raghav Jhawar",
   "license": "MIT",
   "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.10.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "openai": "^5.8.3",
     "stream-chat": "^9.10.1",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.12",
+    "@types/uuid": "^10.0.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
